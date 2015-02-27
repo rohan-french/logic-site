@@ -1,0 +1,10 @@
+baseurl = "~/"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = true
+languageCode = "en-us"
+title = "Rohan French: Logician at Large"
+
+[author]
+	name = "Rohan French"

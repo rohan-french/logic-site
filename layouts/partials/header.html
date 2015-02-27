@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+<!-- FONTS -->
+<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,800|Alegreya+Sans:400,700,500italic,400italic' rel='stylesheet' type='text/css'><!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/haupsatz.css" />
+<!-- MATHJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js">
+</script>
+<!-- RSS -->
+<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+<!-- ICON FONTS --> 
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div id=topbar>
+<header>
+
+<div class=navi-bar>
+<span id=sitetitle><a class=bar-link href ="{{ .Site.BaseUrl }}">Home</a></span>
+<ul>	
+<li><a class="navi-link bar-link" href="{{ .Site.BaseUrl }}/about">About</a> </li>
+<li><a class="navi-link bar-link" href="{{ .Site.BaseUrl }}/post">News</a> </li>
+<li><a class="navi-link bar-link" href="{{ .Site.BaseUrl }}/writing">Writing</a> </li>
+</ul>
+</div>
+</header>
+</div>
+
+

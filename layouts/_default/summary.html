@@ -1,0 +1,13 @@
+
+<article class="post">
+
+<div class=post-header>
+<h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+<h3>{{ .Date.Format "January 2, 2006" }}</h3>
+</div>
+
+{{ .Summary }}
+
+<a href='{{ .Permalink }}'><nobr>Continue Reading "{{.Title}}"</nobr>→</a>
+<hr class="seperator" />
+</article>
