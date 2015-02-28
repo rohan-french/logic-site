@@ -1,4 +1,4 @@
-baseurl = "~/"
+baseurl = "http://rohan-french.github.io"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
