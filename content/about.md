@@ -21,17 +21,17 @@ One day I'll probably put some of the Python programs I developed to put togethe
 the continuous assessment for the subject online here. 
 
 Currently I'm in the Netherlands where I'm working with Associate Professor Catarina Dutilh Novaes
-on the <a href="https://sites.google.com/site/therootsofdeduction/">Roots of Deduction</a> project at the University of Groningen, where I'm working on 
-connections between proof-theory and dialogue games. 
+on the <a href="https://sites.google.com/site/therootsofdeduction/">Roots of Deduction</a> project at the University of Groningen, where I'm working on connections between proof-theory and dialogue games. 
 
 
 My research is focused on issues in _philosophical logic_ and the _philosophy of logic_. I'm 
 particularly interested in issues concerning philosophical proof-theory (esp. proof-theory
 for weak quantificational logics, modal logics and varieties of inferentialism), modal logic 
 (esp. first- and higher-order modal logics, and issues involving expressive power), 
-translations between logics, and issues involving substructural logics. 
+translations between logics, and issues involving substructural logics. I'm generally interested in
+any area of philosophy where formal methods can be fruitfully applied.
 
 When I'm not doing research I usually spend my time reading science-fiction and fantasy
-novels and listening to progressive rock music.
+novels, listening to music and playing computer games. 
 
-I drink _a lot_ of coffee.
+I drink _a lot_ of coffee (I recomend <a href="http://blackandbloom.nl/">Black &amp; Bloom</a> if you're in Groningen, and <a href="http://marketlane.com.au/">Market Lane Coffee</a> if you're in Melbourne).
