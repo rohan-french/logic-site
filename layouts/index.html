@@ -1,17 +1,38 @@
-{{ partial "header.html" . }}
+{{ partial "header" . }}
+{{ $baseUrl := .Site.BaseURL }}
 
   <section id="main">
 
-<div class=content>
-<h1>Current News &amp; Musings</h1>
-<hr />
-{{ range .Data.Pages }}
-	{{if eq .Type  "post"}}
-		{{ .Render "summary"}}
-	{{ end }}
-{{ end }}
-</div>
-</section>
+<div class="units-row units-padding width-80 centered">
 
-{{ partial "footer.html" . }}
+<div class="unit-30">
+	<img id=avatar src="{{ $baseUrl }}/images/rohan-avatarL.JPG">
+</div>
+
+<div class="unit-70">
+
+<P>This is the website of <a href="mailto:rohan.french@gmail.com">Rohan French</a>, an Australian philosophical logician currently at 
+	large in Europe. 
+
+I'm a Postdoctoral researcher on the <a href="https://sites.google.com/site/therootsofdeduction/">Roots of
+Deduction</a> project run by <a href="https://sites.google.com/site/catarinadutilhnovaes/">Catarina Dutilh Novaes</a> in the 
+<a href="http://www.rug.nl/filosofie/?lang=en">Department of Theoretical Philosophy</a> at
+the <a class="bar-link" href="http://www.rug.nl">University of Groningen</a> in the Netherlands. You can find out more
+about me <a href="{{ $baseUrl }}//about/">here</a>.
+</p>
+
+<h2><a target="_blank" href="{{ $baseUrl }}//cv/Rohan French CV.pdf">My CV→</a></h2>
+
+<p>My <a href="{{ $baseUrl }}//publications/">research</a> focuses mostly on issues in modal logic and philosophical proof-theory. 
+	I have broad philosophical interests, and am particuarly interested in any issue in philosophy where formal methods can be 
+	fruitfully applied.</p> 
+	
+	
+<p>Previously I did my PhD in Australia under the supervision of the inimitable 
+	<a href="http://profiles.arts.monash.edu.au/lloyd-humberstone/">Lloyd Humberstone</a>. </p>
+</div>
+</div>
+
+
+{{ partial "footer" . }}
 

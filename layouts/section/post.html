@@ -2,24 +2,37 @@
 
 <section id="main">
 
-<div class=content>
-<h1 id="title">News Archive</h1>
-<hr />
-<p>This is an archive of blog entries. </p>
-{{ range .Data.Pages.GroupByDate "2006" }}
-<h3><a id="{{ .Key }}">{{ .Key }}</a></h3>
-<ul style="list-style-type: none;">
-{{ range .Pages }}
-<li><time><em>{{ .Date.Format "January 2" }}</em></time>, <a href="{{ .Permalink }}">{{ .Title }}</a></li>
-{{ end }}
-</ul>
+<div class="units-container width-80 centered">
+	<h2 class="page-title">Recent News</h2>
+
+    {{ range first 5 ((where .Data.Pages.ByDate "Section" "post").Reverse) }}
+<article class="post">
+	
+<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+<h4>{{ .Date.Format "2 January 2006" }}</h4>
+{{ if .Truncated }}
+{{ .Summary }}
+<p class="text-right"><a href="{{ .RelPermalink }}">Read More →</a></p>
+{{ else }}
+{{ .Content }}
+{{ end }}	
+</article>
+	<hr />
+
 {{ end }}
 
+<h2>News Archive</h2>
+{{ range .Data.Pages.GroupByDate "2006" }}
+<h3><a id="{{ .Key }}">{{ .Key }}</a></h3>
+
+<p>
+{{ range .Pages }}
+<time><em>{{ .Date.Format "January 2" }}</em></time> &mdash; <a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a> //   
+{{ end }}
+</p>
+{{ end }}
 
 </div>
 
 
-</section>
-
 {{ partial "footer.html" . }}
-
