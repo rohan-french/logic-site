@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ .Title }}</title>
-<!-- FONTS -->
-<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,800|Alegreya+Sans:400,700,500italic,400italic' rel='stylesheet' type='text/css'><!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/haupsatz.css" />
-<!-- MATHJax -->
+    <title>Rohan French: Logician at Large</title>
+  
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/kube.min.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/haupsatz.css" />
+ 
+  <link href='http://fonts.googleapis.com/css?family=Alegreya+SC:400,800|Alegreya:400,700,500italic,400italic' rel='stylesheet' type='text/css'>
+  
+  
+
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
@@ -19,29 +28,32 @@
   });
 </script>
 <script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js">
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 </script>
-<!-- RSS -->
-<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-<!-- ICON FONTS --> 
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="{{ .Site.BaseURL }}/index.xml" rel="alternate" type="application/rss+xml" title="Rohan French: Logician at Large" />
+
+ 
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
 
 </head>
 <body>
 
-<div id=topbar>
+<div class="navigation">
 <header>
 
-<div class=navi-bar>
-<span id=sitetitle><a class=bar-link href ="{{ .Site.BaseUrl }}">Home</a></span>
-<ul>	
-<li><a class="navi-link bar-link" href="{{ .Site.BaseUrl }}/about">About</a> </li>
-<li><a class="navi-link bar-link" href="{{ .Site.BaseUrl }}/post">News</a> </li>
-<li><a class="navi-link bar-link" href="{{ .Site.BaseUrl }}/writing">Writing</a> </li>
+<a href ="{{ .Site.BaseURL }}/"><h1 id="header" >Rohan French</h1></a>
+
+
+<nav class="navbar">
+<ul>
+<li><a href="{{ .Site.BaseURL }}/about">About</a> </li>
+<li><a href="{{ .Site.BaseURL }}/cv">CV</a></li>
+<li><a href="{{ .Site.BaseURL }}/writing">Publications</a> </li>
+<li><a href="{{ .Site.BaseURL }}/presentations">Presentations</a> </li>
+<li><a href="{{ .Site.BaseURL }}/post">Blog</a> </li>
 </ul>
-</div>
+</nav>
+
 </header>
 </div>
-
-

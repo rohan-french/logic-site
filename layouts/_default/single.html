@@ -1,12 +1,19 @@
 {{ partial "header.html" . }} 
-<div class=content>
-<h1 id="title">{{ .Title }}</h1>
+
+<div class="units-container units-padding width-80 centered">
+	
+<!-- Page Title -->
+<h2 class="page-title">{{ .Title }}</h2>
+<!-- Add Date if Post -->
 	{{if eq .Type  "post"}}
 		<h3>{{ .Date.Format "January 2, 2006" }}</h3>
 	{{ end }}
-<hr />
+
+<!-- Actual Page Content -->
 <div> 
 {{ .Content }} 
 </div>
+
+
 </div>
 {{ partial "footer.html" . }} 
