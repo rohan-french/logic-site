@@ -155,7 +155,7 @@ h2, h3, h4, h5 {
 	font-weight: normal;
 	font-style: italic;
 }
-h2, h3 {
+h2 {
 	text-transform: lowercase;
 	font-family: 'Alegreya SC', sans-serif;
 	font-style: normal;

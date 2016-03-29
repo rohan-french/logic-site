@@ -4,9 +4,10 @@
 	
 <!-- Page Title -->
 <h2 class="page-title">{{ .Title }}</h2>
-<!-- Add Date if Post -->
 	{{if eq .Type  "post"}}
 		<h3>{{ .Date.Format "January 2, 2006" }}</h3>
+	{{else if eq .Type  "presentations"}}
+		<h3>{{ .Date.Format "2 January 2006" }}</h3>
 	{{ end }}
 
 <!-- Actual Page Content -->
@@ -17,3 +18,6 @@
 
 </div>
 {{ partial "footer.html" . }} 
+
+<div class="unit-20"></div>
+<div class="unit-60"></div>

@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+<section id="main">
+
+<div class="units-container width-80 centered">
+	<h2 class="page-title">Presentations</h2>
+
+{{ range .Data.Pages.GroupByDate "2006" }}
+<h3><a id="{{ .Key }}">{{ .Key }}</a></h3>
+
+
+<ul>
+{{ range .Pages }}
+
+<li><a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a><br />
+<em>{{ .Date.Format "2 January, 2006"  }}</em>&nbsp;&ndash;&nbsp;{{ .Description }}</li>
+{{ end }}
+</ul>
+{{ end }}
+
+</div>
+
+
+{{ partial "footer.html" . }}
