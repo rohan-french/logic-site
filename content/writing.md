@@ -12,15 +12,16 @@ All PDFs here are authors preprints. To get the official version follow the link
 
 + "Structural Reflexivity and the Paradoxes of Self-Reference",
 forthcoming in _Ergo_. 
+<a href="/writing/reflexivity-and-paradox.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
 
 + "An Argument for the Ontological Innocence of Mereology",
 forthcoming in _Erkenntnis_.
-<a href="http://rohan-french.github.io/writing/mereology.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
+<a href="/writing/mereology.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
 <a href="http://dx.doi.org/10.1007/s10670-015-9762-x" class="badge badge-small">[doi]</a>(Open Access)</p>
 
 + "A Sequent Calculus for Urn Logic",
 _Journal of Logic, Language and Information_ 24 (2015), 131-147.
-<a href="http://rohan-french.github.io/writing/urn-logic.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
+<a href="/writing/urn-logic.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
 <a href="http://dx.doi.org/10.1007/s10849-015-9216-5" class="badge badge-small">[doi]</a>(Open Access)</p>
 
 + "In the Mood for **S4**: The Expressive Power of the Subjunctive Modal Language in Weak Background Logics", 
@@ -59,7 +60,7 @@ _Studia Logica_ 103 (2015), 239-263.
 
 + (with Lloyd Humberstone) "An Observation Concerning Porte's Rule in Modal Logic",
 _Bulletin of the Section of Logic_ 44:1 / 2 (2015), 25-31.
-<a href="http://rohan-french.github.io/writing/porte.pdf" class="badge badge small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a><a href="http://www.filozof.uni.lodz.pl/bulletin/pdf/44_12_4.pdf"class="badge badge-small">[Official Version]</a> (Open Access)
+<a href="/writing/porte.pdf" class="badge badge small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a><a href="http://www.filozof.uni.lodz.pl/bulletin/pdf/44_12_4.pdf"class="badge badge-small">[Official Version]</a> (Open Access)
 
 
 + (with Lloyd Humberstone) "Partial Confirmation of a Conjecture on the Boxdot Translation in Modal Logic", _Australasian Journal of Logic_ 7 (2009), 56-61. 
