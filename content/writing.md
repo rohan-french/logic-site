@@ -10,14 +10,15 @@ All PDFs here are authors preprints. To get the official version follow the link
 ## Single Author Publications ##
 <hr />
 
-+ "Structural Reflexivity and the Paradoxes of Self-Reference",
-forthcoming in _Ergo_. 
-<a href="/writing/reflexivity-and-paradox.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
-
 + "An Argument for the Ontological Innocence of Mereology",
 forthcoming in _Erkenntnis_.
 <a href="/writing/mereology.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
 <a href="http://dx.doi.org/10.1007/s10670-015-9762-x" class="badge badge-small">[doi]</a>(Open Access)</p>
+
++ "Structural Reflexivity and the Paradoxes of Self-Reference", 
+_Ergo_ 3 (2016), 113-131.  
+<a href="/writing/reflexivity-and-paradox.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
+<a href="http://dx.doi.org/10.3998/ergo.12405314.0003.005" class="badge badge-small">[doi]</a>(Open Access)</p>
 
 + "A Sequent Calculus for Urn Logic",
 _Journal of Logic, Language and Information_ 24 (2015), 131-147.

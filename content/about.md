@@ -19,9 +19,9 @@ Melbourne's undergraduate logic course into a MOOC on Coursera, resulting in
 One day I'll probably put some of the Python programs I developed to put together
 the continuous assessment for the subject online here. 
 
-Currently I'm in the Netherlands where I'm working with Associate Professor Catarina Dutilh Novaes
-on the <a href="https://sites.google.com/site/therootsofdeduction/">Roots of Deduction</a> project at the University of Groningen, where I'm working on connections between proof-theory and dialogue games. 
-
+From 2015-2016 I was a postdoctoral researcher in the Netherlands, working with Associate Professor Catarina Dutilh Novaes
+on the <a href="https://sites.google.com/site/therootsofdeduction/">Roots of Deduction</a> project at the University of Groningen, 
+where I worked on various connections between proof-theory and dialogue games. 
 
 My research is focused on issues in _philosophical logic_ and the _philosophy of logic_. I'm 
 particularly interested in issues concerning philosophical proof-theory (esp. proof-theory
