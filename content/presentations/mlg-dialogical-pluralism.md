@@ -1,7 +1,7 @@
 +++
 Date = "2016-09-09T11:00:24+10:00"
 Title = "A Dialogical Account of Logical Pluralism"
-slug = "mcmp-dialogical-pluralism"
+slug = "mlg-dialogical-pluralism"
 Description = "Melbourne Logic Group"
 +++
 
