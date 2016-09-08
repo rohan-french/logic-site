@@ -11,7 +11,7 @@ All PDFs here are authors preprints. To get the official version follow the link
 <hr />
 
 + "An Argument for the Ontological Innocence of Mereology",
-forthcoming in _Erkenntnis_.
+_Erkenntnis_ 81 (2016), 683-704.
 <a href="/writing/mereology.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
 <a href="http://dx.doi.org/10.1007/s10670-015-9762-x" class="badge badge-small">[doi]</a>(Open Access)</p>
 
