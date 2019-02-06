@@ -1,5 +1,4 @@
 +++
-title = "About"
 slug = "about"
 +++
 
@@ -9,28 +8,20 @@ slug = "about"
 </div>
 
 I'm <span class="illuminate">Dr. Rohan French</span>. 
-I did my PhD at Monash University in Australia under watchful eyes
-of Lloyd Humberstone, working on translations between modal logics. 
 
-From 2013-2014 I worked with Greg Restall and Jen Davoren on turning the University of
-Melbourne's undergraduate logic course into a MOOC on Coursera, resulting in 
-<a href="https://www.coursera.org/course/logic1">Logic: Language and Information 1</a> and 
-<a href="https://www.coursera.org/course/logic2">Logic: Language and Information 2</a>.
-One day I'll probably put some of the Python programs I developed to put together
-the continuous assessment for the subject online here. 
-
-From 2015-2016 I was a postdoctoral researcher in the Netherlands, working with Associate Professor Catarina Dutilh Novaes
+Since the fall of 2018 I've been an Assistant Professor in the <a href="http://philosophy.ucdavis.edu">Philosophy Department</a> at the <a href="http://ucdavis.edu">University of California Davis</a>. Prior to that I was a postdoctoral researcher
+in the Netherlands, working with Professor Catarina Dutilh Novaes
 on the <a href="https://sites.google.com/site/therootsofdeduction/">Roots of Deduction</a> project at the University of Groningen, 
-where I worked on various connections between proof-theory and dialogue games. 
+where I worked on various connections between proof-theory and dialogue games. Prior to my stay in Groningen I worked with
+Greg Restall and Jen Davoren at the University of Melbourne on creating the, seemingly no longer available, MOOCs on Coursera, 
+<em>Logic: Language and Information 1</em> and <em>Logic: Language and Information 2</em>.
 
-My research is focused on issues in _philosophical logic_ and the _philosophy of logic_. I'm 
-particularly interested in issues concerning philosophical proof-theory (esp. proof-theory
-for weak quantificational logics, modal logics and varieties of inferentialism), modal logic 
-(esp. first- and higher-order modal logics, and issues involving expressive power), 
-translations between logics, and issues involving substructural logics. I'm generally interested in
-any area of philosophy where formal methods can be fruitfully applied.
+I did my PhD at Monash University in Australia under watchful eyes of Lloyd Humberstone, working on translations between modal logics.
 
-When I'm not doing research I usually spend my time reading science-fiction and fantasy
-novels, listening to music and playing computer games. 
+My research is focused on issues in _philosophical logic_ and the _philosophy of logic_. I'm particularly interested
+in philosophical and technical issues concerning modal logic, translations between logics, proof theory, non-classical logic, and the semantic paradoxes. I'm particularly interested in questions concerning the philosophical significance of translation results in logic, and 
+problems and prospects for substructural, particularly nonreflexive and nontransitive, resolutions of the semantic paradoxes. 
 
-I drink _a lot_ of coffee (I recomend <a href="http://blackandbloom.nl/">Black &amp; Bloom</a> if you're in Groningen, and <a href="http://marketlane.com.au/">Market Lane Coffee</a> if you're in Melbourne).
+I'm generally interested in any area of philosophy where formal methods can be fruitfully applied.
+
+I drink _a lot_ of coffee (I recommend <a href="https://templecoffee.com/">Temple Coffee Roasters</a> if you're in Davis,  <a href="http://blackandbloom.nl/">Black &amp; Bloom</a> if you're in Groningen, and <a href="http://marketlane.com.au/">Market Lane Coffee</a> if you're in Melbourne).

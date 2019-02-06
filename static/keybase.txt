@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/modalist
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rohan-french.github.io
+  * I am modalist (https://keybase.io/modalist) on keybase.
+  * I have a public key ASCn5blOirQBD0yB6tx5V2lS18Q0RVv4Dd-G0P0NlzFK-wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120a7e5b94e8ab4010f4c81eadc79576952d7c434455bf80ddf86d0fd0d97314afb0a",
+            "host": "keybase.io",
+            "kid": "0120a7e5b94e8ab4010f4c81eadc79576952d7c434455bf80ddf86d0fd0d97314afb0a",
+            "uid": "7bbbdc30ddf27c37b30d7637d03a6519",
+            "username": "modalist"
+        },
+        "service": {
+            "hostname": "rohan-french.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1488626055,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1488625977,
+        "hash": "10e9d7c68ee4dccda00fcbaabd4cacfa158b7e8e99518c49556fc73ceac6623ea6a1c3b3a6164073369228cd06b4396eb34cd267ac5cc2504141c819b9e0cf58",
+        "seqno": 938308
+    },
+    "prev": "1fee67baf16ef85e1716a7958f0d1f0574b17ee0aa32e32470aeab9cf686b1e9",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgp+W5Toq0AQ9MgerceVdpUtfENEVb+A3fhtD9DZcxSvsKp3BheWxvYWTFAv57ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYTdlNWI5NGU4YWI0MDEwZjRjODFlYWRjNzk1NzY5NTJkN2M0MzQ0NTViZjgwZGRmODZkMGZkMGQ5NzMxNGFmYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTdlNWI5NGU4YWI0MDEwZjRjODFlYWRjNzk1NzY5NTJkN2M0MzQ0NTViZjgwZGRmODZkMGZkMGQ5NzMxNGFmYjBhIiwidWlkIjoiN2JiYmRjMzBkZGYyN2MzN2IzMGQ3NjM3ZDAzYTY1MTkiLCJ1c2VybmFtZSI6Im1vZGFsaXN0In0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJyb2hhbi1mcmVuY2guZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODg2MjYwNTUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4ODYyNTk3NywiaGFzaCI6IjEwZTlkN2M2OGVlNGRjY2RhMDBmY2JhYWJkNGNhY2ZhMTU4YjdlOGU5OTUxOGM0OTU1NmZjNzNjZWFjNjYyM2VhNmExYzNiM2E2MTY0MDczMzY5MjI4Y2QwNmI0Mzk2ZWIzNGNkMjY3YWM1Y2MyNTA0MTQxYzgxOWI5ZTBjZjU4Iiwic2Vxbm8iOjkzODMwOH0sInByZXYiOiIxZmVlNjdiYWYxNmVmODVlMTcxNmE3OTU4ZjBkMWYwNTc0YjE3ZWUwYWEzMmUzMjQ3MGFlYWI5Y2Y2ODZiMWU5Iiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA5g7YuTbVE6Qum30w8/lK3NZ2o6PREQczvVXGuUT7jH41EtpTvOYXYLYvbRw1EERVZjZwlBmSZdimhnN/N3ZKB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGdhTCA7RxuguOG6dV6YTep9H2DJcejQjh5eifQGV87Po3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/modalist
+
+==================================================================

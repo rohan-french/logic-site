@@ -1,0 +1,107 @@
+{{ partial "header.html" . }}
+
+<section id="main">
+
+<div class="units-container width-80 centered">
+&nbsp;
+<div class="units-row">
+
+<div class="unit-50">
+<h3>Forthcoming</h3>
+<hr />
+{{ range (where .Data.Pages "Type" "forthcoming").GroupByDate "2006" "desc" }}
+		
+<div class="units-row">		
+	<div class="unit-90">
+	    <ul class="fa-ul">
+			{{ range .Pages.ByDate.Reverse }}
+	        <li style="margin-bottom: 10px"><i class="fa-li fa fa-file-o fa-fw"></i>
+				{{ if ne .Params.author "Rohan French"}}(with {{replaceRE "Rohan French and (A-Za-z )*" "$1" .Params.author}}) {{ end }}{{ .Params.title| safeHTML }}, forthcoming in <em>{{ .Params.journal }}</em>.
+		{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
+	{{if eq .Params.openaccess "true"}}<span class="badge badge-small">open access</span>{{end}}
+	</li>
+			{{ end }}
+	    </ul>
+        
+	</div>
+</div>
+{{ end }}
+
+<h3>In Proceedings</h3>
+<hr />
+{{ range (where .Data.Pages "Type" "proceedings").GroupByDate "2006" "desc" }}
+		
+<div class="units-row">	
+	<div class="unit-10">
+		<h3>{{ .Key }}</h4>
+	</div>			
+	<div class="unit-90">
+	    <ul class="fa-ul">
+			{{ range .Pages.ByDate.Reverse }}
+	        <li style="margin-bottom: 10px"><i class="fa-li fa fa-file-o fa-fw"></i>
+				{{ if ne .Params.author "Rohan French"}}(with {{replaceRE "Rohan French and (A-Za-z )*" "$1" .Params.author}}) {{ end }}{{ .Params.title| safeHTML }}, <em>{{ .Params.conference }}</em>, Edited by {{ .Params.editors }}, pp. {{ .Params.pages }}
+		{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
+	{{if eq .Params.openaccess "true"}}<span class="badge badge-small">open access</span>{{end}}
+	</li>
+			{{ end }}
+	    </ul>
+        
+	</div>
+</div>
+{{ end }}
+
+<h3>Unpublished</h3>
+<hr />
+{{ range (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
+		
+<div class="units-row">	
+	<div class="unit-10">
+		<h3>{{ .Key }}</h4>
+	</div>			
+	<div class="unit-90">
+	    <ul class="fa-ul">
+			{{ range .Pages.ByDate.Reverse }}
+	        <li style="margin-bottom: 10px"><i class="fa-li fa fa-file-o fa-fw"></i>
+				{{ if ne .Params.author "Rohan French"}}(with {{replaceRE "Rohan French and (A-Za-z )*" "$1" .Params.author}}) {{ end }}{{ .Params.title| safeHTML }}, {{ .Params.text}}.
+		{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
+	{{if eq .Params.openaccess "true"}}<span class="badge badge-small">open access</span>{{end}}
+	</li>
+			{{ end }}
+	    </ul>
+        
+	</div>
+</div>
+{{ end }}
+
+</div>
+<!-- TEST--> 	
+
+<div class="unit-50">	
+<h3>Published</h3>
+<hr />
+{{ range (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
+		
+<div class="units-row">
+	<div class="unit-10">
+		<h3>{{ .Key }}</h4>
+	</div>		
+	<div class="unit-90">
+	    <ul class="fa-ul">
+			{{ range .Pages.ByDate.Reverse }}
+	        <li style="margin-bottom: 10px"><i class="fa-li fa fa-file-o fa-fw"></i>
+				{{ if ne .Params.author "Rohan French"}}(with {{replaceRE "Rohan French and (A-Za-z )*" "$1" .Params.author}}) {{ end }}{{ .Params.title| safeHTML }}, <em>{{ .Params.journal }}</em> {{ .Params.issue }}, {{ .Params.pages }}  
+	{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
+	{{if eq .Params.openaccess "true"}}<span class="badge badge-small">open access</span>{{end}}
+	</li>
+			{{ end }}
+	    </ul>
+        
+	</div>
+</div>
+{{ end }}
+</div>
+</div>
+
+</div>
+
+{{ partial "footer.html" . }}
