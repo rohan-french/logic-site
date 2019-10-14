@@ -6,10 +6,19 @@
     <description>Recent content in Publications on Rohan French: Logician at Large</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://rohan-french.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Dialogical Route to Logical Pluralism</title>
+      <link>http://rohan-french.github.io/publications/dialogical-pluralism/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://rohan-french.github.io/publications/dialogical-pluralism/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Description and Disjunction: Reflections on an Argument of Thomas Forster</title>
