@@ -6,18 +6,18 @@
 <div class="units-row units-padding width-90 centered">
 
 <div class="unit-25">
-	<img id=avatar src="{{ $baseUrl }}/images/rohan-avatarL.JPG">
+	<img id=avatar src="{{ $baseUrl }}/images/avatar-portrait.jpg">
 </div>
 
 <div class="unit-40">
 
-<P>This is the website of <a href="mailto:rohan.french@gmail.com">Rohan French</a>, an Australian philosophical logician and <a href="http://philosophy.ucdavis.edu/people/rfrench">Assistant Professor of Philosophy</a> at <a href="http://philosophy.ucdavis.edu/">UC Davis</a>. 
+<P>This is the website of <a href="mailto:rohan.french@gmail.com">Rohan French</a>, an Australian philosophical logician and <a href="http://philosophy.ucdavis.edu/people/rfrench">Associate Professor of Philosophy</a> at <a href="http://philosophy.ucdavis.edu/">UC Davis</a>. 
 
 <p>My <a href="{{ $baseUrl }}/publications/">research</a> focuses mostly on issues in modal logic, non-classical logic, proof theory, 
 	and the semantic paradoxes. I have broad philosophical interests, and am particularly interested in any issues in philosophy
 	where formal methods can be fruitfully applied.</p> 
 	
-<p>Previous to that I did my PhD in Australia under the supervision of the inimitable 
+<p>Prior to joining the Department of Philosophy at UC Davis I was a post-doctoral researcher on the <a href="https://sites.google.com/site/therootsofdeduction/">Roots of Deduction</a> project at the <a href="https://www.rug.nl/filosofie/?lang=en">University of Groningen</a> in the Netherlands. I did my PhD in Australia under the supervision of the inimitable 
 	<a href="http://profiles.arts.monash.edu.au/lloyd-humberstone/">Lloyd Humberstone</a>. </p>
 </div>
 
@@ -35,7 +35,7 @@
 			<em>{{ .Params.journal }}</em> 
 				{{ .Params.issue }} ({{ dateFormat "2006" .Params.publishdate }}), {{ .Params.pages }}
 				  
-				{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
+				{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}/publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
 				{{ if isset .Params "permalink" }} 
 				<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>
 				{{if eq .Params.openaccess "true"}}<span class="badge badge-small">open access</span>{{end}}
@@ -48,7 +48,7 @@
 			{{ if ne .Params.author "Rohan French"}}(with {{replaceRE "Rohan French and (A-Za-z )*" "$1" .Params.author}}) {{ end }}
 			&ldquo;{{ .Params.title| safeHTML }}&rdquo;, 
 			forthcoming in <em>{{ .Params.journal }}</em>.
-			{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
+			{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}/publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
 			{{ if isset .Params "permalink" }} 
 				<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>
 				{{if eq .Params.openaccess "true"}}<span class="badge badge-small">open access</span>{{end}}

@@ -17,7 +17,7 @@
 			{{ range .Pages.ByDate.Reverse }}
 	        <li style="margin-bottom: 10px"><i class="fa-li fa fa-file-o fa-fw"></i>
 				{{ if ne .Params.author "Rohan French"}}(with {{replaceRE "Rohan French and (A-Za-z )*" "$1" .Params.author}}) {{ end }}{{ .Params.title| safeHTML }}, forthcoming in <em>{{ .Params.journal }}</em>.
-		{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
+		{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}/publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
 	{{if eq .Params.openaccess "true"}}<span class="badge badge-small">open access</span>{{end}}
 	</li>
 			{{ end }}
@@ -40,7 +40,7 @@
 			{{ range .Pages.ByDate.Reverse }}
 	        <li style="margin-bottom: 10px"><i class="fa-li fa fa-file-o fa-fw"></i>
 				{{ if ne .Params.author "Rohan French"}}(with {{replaceRE "Rohan French and (A-Za-z )*" "$1" .Params.author}}) {{ end }}{{ .Params.title| safeHTML }}, <em>{{ .Params.conference }}</em>, Edited by {{ .Params.editors }}, pp. {{ .Params.pages }}
-		{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
+		{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}/publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
 	{{if eq .Params.openaccess "true"}}<span class="badge badge-small">open access</span>{{end}}
 	</li>
 			{{ end }}
@@ -63,7 +63,7 @@
 			{{ range .Pages.ByDate.Reverse }}
 	        <li style="margin-bottom: 10px"><i class="fa-li fa fa-file-o fa-fw"></i>
 				{{ if ne .Params.author "Rohan French"}}(with {{replaceRE "Rohan French and (A-Za-z )*" "$1" .Params.author}}) {{ end }}{{ .Params.title| safeHTML }}, {{ .Params.text}}.
-		{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
+		{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}/publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
 	{{if eq .Params.openaccess "true"}}<span class="badge badge-small">open access</span>{{end}}
 	</li>
 			{{ end }}
@@ -90,7 +90,7 @@
 			{{ range .Pages.ByDate.Reverse }}
 	        <li style="margin-bottom: 10px"><i class="fa-li fa fa-file-o fa-fw"></i>
 				{{ if ne .Params.author "Rohan French"}}(with {{replaceRE "Rohan French and (A-Za-z )*" "$1" .Params.author}}) {{ end }}{{ .Params.title| safeHTML }}, <em>{{ .Params.journal }}</em> {{ .Params.issue }}, {{ .Params.pages }}  
-	{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
+	{{ if not (eq .Params.file "") }}<a href="{{.Site.BaseURL}}/publications/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}{{ if not (eq .Params.permalink "")}}<a href="{{ .Params.permalink }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;doi</a>{{ end }}
 	{{if eq .Params.openaccess "true"}}<span class="badge badge-small">open access</span>{{end}}
 	</li>
 			{{ end }}

@@ -9,7 +9,8 @@ slug = "about"
 
 I'm <span class="illuminate">Dr. Rohan French</span>. 
 
-Since the fall of 2018 I've been an Assistant Professor in the <a href="http://philosophy.ucdavis.edu">Philosophy Department</a> at the <a href="http://ucdavis.edu">University of California Davis</a>. Prior to that I was a postdoctoral researcher
+Since the fall of 2021 I've been an Associate Professor in the <a href="http://philosophy.ucdavis.edu">Philosophy Department</a> at the <a href="http://ucdavis.edu">University of California Davis</a>, after having been 
+an Assistant Professor here since the fall of 2018. Prior to that I was a postdoctoral researcher
 in the Netherlands, working with Professor Catarina Dutilh Novaes
 on the <a href="https://sites.google.com/site/therootsofdeduction/">Roots of Deduction</a> project at the University of Groningen, 
 where I worked on various connections between proof-theory and dialogue games. Prior to my stay in Groningen I worked with
@@ -24,4 +25,4 @@ problems and prospects for substructural, particularly nonreflexive and nontrans
 
 I'm generally interested in any area of philosophy where formal methods can be fruitfully applied.
 
-I drink _a lot_ of coffee (I recommend <a href="https://templecoffee.com/">Temple Coffee Roasters</a> if you're in Davis,  <a href="http://blackandbloom.nl/">Black &amp; Bloom</a> if you're in Groningen, and <a href="http://marketlane.com.au/">Market Lane Coffee</a> if you're in Melbourne).
+I drink _a lot_ of coffee (I recommend <a href="https://templecoffee.com/">Temple Coffee Roasters</a> if you're in Davis,  <a href="http://insightcoffee.com">Insight Coffee Roasters</a> if you're in Sacramento, <a href="http://blackandbloom.nl/">Black &amp; Bloom</a> if you're in Groningen, and <a href="http://marketlane.com.au/">Market Lane Coffee</a> if you're in Melbourne).

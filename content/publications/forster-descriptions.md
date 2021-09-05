@@ -1,11 +1,11 @@
 ---
 title: "Description and Disjunction: Reflections on an Argument of Thomas Forster"
 author: "Rohan French and Lloyd Humberstone"
-status: "Forthcoming in 2019"
-type: forthcoming
+status: "Published in 2018"
+type: published
 journal: "South American Journal of Logic"
-issue:
-pages:
+issue: "4(1)"
+pages: "1-28"
 permalink: "http://www.sa-logic.org/aaccess/french-humberstone-SAJL.pdf"  
 tag: "forster-descriptions"
 file: "" 
